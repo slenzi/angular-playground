@@ -1,5 +1,5 @@
 /*
-Sample application to test salUploader module
+Sample application for testing angular code
 -sal
 */
 
