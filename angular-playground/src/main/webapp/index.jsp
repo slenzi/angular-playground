@@ -51,7 +51,12 @@
         {{ myWatch }}
         </p>
   		<p>
-        {{ myWatchTwo }}
+        {{ myWatchEcho }}
+        </p>
+        
+        <p>
+        $watch test two:<br>
+        <input type="text" placeholder="Enter some text" my-watch-directive-two="watchTwo" />
         </p>
 
 		<script src="bower_components/angular/angular.min.js"></script>
