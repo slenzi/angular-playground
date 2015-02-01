@@ -41,6 +41,7 @@
 
 		<p>
 		<button ng-click="helloTest()">Hello Test</button>
+		<button ng-click="doDebugScope()">Debug</button>
 		</p>
         
         <p>
@@ -56,7 +57,10 @@
         
         <p>
         $watch test two:<br>
-        <input type="text" placeholder="Enter some text" my-watch-directive-two="watchTwo" />
+        <input type="text" placeholder="Enter some text" my-watch-directive-two="myWatchTwo" />
+        </p>
+        <p>
+        {{ myWatchTwo }}
         </p>
 
 		<script src="bower_components/angular/angular.min.js"></script>
